@@ -43,6 +43,9 @@ if all letters in the next lines are integers, is the folowing valid, why:
   * g = h / i
   * r + s = t * u
 
+If you use the operator / If store as a int your remainder can be lost. Modulo (%) will be needed to use to keep the remiander from disapearing.
+when the = is seen it will perform the right side first then the left, and then store it in the left variable, so line 44 or r+s=t*u would not produce anything.
+
 There are other operators that we will talk about as the class progresses.
 
 ##### testing operators
@@ -80,9 +83,29 @@ We can string these above steps together, but we need ways to only do the steps 
 
 ##### If structure:
   * if                 do this poriton of code only if the test is true
-  * if - else          same as the if, but has a second porion of code that is followed only if the test is not true.
-  * if - else if       Same as if-else, however only runs the second poriton if the first test if false and a second is true.
+  if(a==5){
   
+  }
+  
+  * if - else          same as the if, but has a second porion of code that is followed only if the test is not true.
+  if(a==5){
+  
+  }
+  else{
+  
+  }
+  
+  * if - else if       Same as if-else, however only runs the second poriton if the first test if false and a second is true.
+  if(a==5){
+  
+  }
+  else if(a==6){
+  
+  }
+  else if(a==1{
+  
+  
+  }
 How to determin which to use?  Partially practice, and being *lazy*.
 
 Write out an example of a program that gives an indication of a kid of what they should wear based upon the tempature.
