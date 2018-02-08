@@ -1,0 +1,48 @@
+Go to the windows menu, and then "computer".
+
+in here, open the c drive.
+
+then open "Program Files", "JetBrains", "IntelliJ IDEA Community ...", "bin" folders
+
+in here double click on the application titled "idea" (it's icon is a black box with a white I J on it with a white line under them.
+
+do not import settings (click ok)
+
+"Accept" the privacy policy
+
+Select a UI theme, and then click "Skip Remaining and Set Defaults"
+
+-----------
+
+Select create new project
+	in the upper left have "Java" highlighted.
+	At the top in the middle, click new, and navigate to:
+		C:\Program Files\Java\jdk1.8.0_152
+	Once that folder is highlighted, click Ok.
+	
+	(note that none of the boxes in the middle will be checked.)
+click Next
+
+click Next
+
+give you project a name (like HW1 or something more fun, yet still identifiable)
+
+click on the name of your project in the upper left corner of the window.  select src.
+	if a project structure window opens, close it.
+	
+go to the file menu, and new.  Select "Java Class".
+
+It will ask you for a name for the class.  Start this with a capitol letter, and no spaces you can use numbers.
+	I would suggest using camel case:  ThisIsCamelCase
+
+Note that the public class has the same name as the file.  This is a requirement in Java.
+	
+---------------
+
+You will need a main function:
+	public static void main(String[] args)
+	
+This is what will be called when you run your program.
+
+To run your program, go to the run menu and select "run" or "debug".
+
