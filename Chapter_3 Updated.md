@@ -119,14 +119,14 @@ Note that with this condition we had to invert it, as the written test in the fl
 
 #### Tests
 How can we test things in conditionals and loops?
-
+~~~
 When we test something we want the result to be true or false.  We know of some of these and use them regularly:
 * <  less than
-* >  greater than
+*  >  greater than
 * == is equal to
 * <= less than or equal to
-* >= greater than or equal to
-
+*  >= greater than or equal to
+~~~
 What if we need something to not be one of these things?  For that we have a not opperator: 
 * !
 
@@ -157,3 +157,35 @@ If it is not the case that either the sky is blue or the water is red.
 becomes:
 if( !( (sky == blue) || (water == red) ) )
 
+### Comments in Java
+~~~
+Use // to indicate that everything after is a comment *works for one row*
+Use /*_____*/ to indicate that everything in between is to be seen as a comment
+          Use comments for assistance too many can be very messy and unneccessary
+~~~
+
+### Initial Set Up
+~~~
+- public class (NAME of File)
+  { 
+          public static void main(String[]args)  (*** These two things are needed to have java run/ This MAIN is a function**)
+          {
+          }
+  }
+~~~
+### Switch Statements
+~~~
+int i
+switch(i%5)
+{
+case 0:
+ -insert commands if condition met for this case -
+case 1
+case 2
+case 3
+case 4
+default:
+print 'i is a multiple of 5"
+}
+
+~~~
